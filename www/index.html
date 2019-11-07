@@ -14,6 +14,19 @@ function chk_ans()
 	my_elem.style.color = 'red';
 }
 
+function login()
+{
+	my_elem = document.getElementById('username');
+	my_elem = document.getElementById('password');
+	if (username=user & password=pass) {
+	
+		ons.notification.alert(successful)
+	}
+	else{
+		
+		ons.notification.alert(incorrect credentials)
+	}
+
 </script>
 
 <link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
@@ -37,6 +50,9 @@ function chk_ans()
  </ons-input>
  
  </p>
+ 
+<p> <button onClick='check_username()'>Login</button></p>
+<p> <button onClick='check_password()'>Login</button></p>
  
  <p>
  
