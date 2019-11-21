@@ -4,7 +4,92 @@
 <body>
 <ons-navigator id=”navigator”>
 <ons-page>
-HTML for the login page
+<html>
+
+	<head>
+
+	</head>
+
+	<body>
+
+		<ons-navigator id="navigator">
+
+			<ons-page>
+
+<link href= "styles/style.css" rel="stylesheet" type="text/css">
+
+</link>
+
+<script>
+
+
+function login()
+{
+	my_elem = document.getElementById('username');
+	my_elem = document.getElementById('password');
+	if (username=user & password=pass) {
+	
+		ons.notification.alert(successful)
+	}
+	else{
+		
+		ons.notification.alert(incorrect credentials)
+	}
+
+</script>
+
+<link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsenui.css">
+
+<link rel="stylesheet" href="https://unpkg.com/onsenui/css/onsen-css-components.min.css">
+
+<script src="https://unpkg.com/onsenui/js/onsenui.min.js"></script>
+
+</head>
+
+<body>
+
+<ons-navigator id="navigator">
+
+<ons-page>
+
+	
+
+ <div style="text-align: center; margin-top: 200px">
+ 
+ <p>
+ 
+ <ons-input id="username" placeholder="Username" modifier="underbar">
+ 
+ </ons-input>
+ 
+ </p>
+ 
+<p> <button onClick='check_username()'>Login</button></p>
+<p> <button onClick='check_password()'>Login</button></p>	
+
+ <p>
+ 
+ <ons-input
+ id="password"
+ placeholder="Password"
+ type="password"
+ modifier="underbar">
+ 
+ </ons-input>
+ 
+ </p>
+ 
+ <p>
+ 
+ <ons-button>Sign in</ons-button>
+ 
+ </p>
+ 
+ </div>
+ 
+ </body>
+
+</html>
 </ons-page>
 </ons-navigator>
 <ons-template id=”shackleton.html”>>
